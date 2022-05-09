@@ -1,0 +1,113 @@
+.profile {
+	margin: 0 220px;
+}
+
+.profileCover {
+	height: 310px;
+	position: relative;
+}
+
+.profileCoverImg {
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+}
+
+.profileUserImg {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 150px;
+	border: 3px solid white;
+}
+
+.profileInfo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.profileDetail {
+	padding: 15px;
+	width: 100%;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+	box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+	margin: 30px 0;
+}
+
+.infoCenter {
+	margin-top: 10px;
+}
+
+.infos {
+	display: flex;
+}
+
+.inforRight {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+}
+
+.infoIcon {
+	font-size: 16px;
+	padding-top: 4px;
+}
+
+.btnEditInfo {
+	margin-top: 15px;
+	display: flex;
+	background-color: rgb(245, 237, 237);
+	height: 34px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 8px;
+}
+
+.btnEditInfo:hover {
+	background-color: rgb(250, 231, 219);
+	cursor: pointer;
+}
+
+.profilePostWrapper {
+	margin: 30px 0 0 20px;
+}
+
+.contentTop {
+	padding-top: 10px;
+	width: 100%;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+	box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+}
+
+.ant-menu {
+	display: flex;
+	justify-content: space-around;
+	font-weight: 500;
+}
+
+.ant-menu-vertical .ant-menu-item:not(:last-child),
+.ant-menu-vertical-left .ant-menu-item:not(:last-child),
+.ant-menu-vertical-right .ant-menu-item:not(:last-child),
+.ant-menu-inline .ant-menu-item:not(:last-child) {
+	margin-bottom: 0px;
+}
+
+.ant-menu-vertical .ant-menu-item,
+.ant-menu-vertical-left .ant-menu-item,
+.ant-menu-vertical-right .ant-menu-item,
+.ant-menu-inline .ant-menu-item,
+.ant-menu-vertical .ant-menu-submenu-title,
+.ant-menu-vertical-left .ant-menu-submenu-title,
+.ant-menu-vertical-right .ant-menu-submenu-title,
+.ant-menu-inline .ant-menu-submenu-title {
+	margin-top: -3px;
+}

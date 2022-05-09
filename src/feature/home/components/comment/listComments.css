@@ -1,0 +1,40 @@
+.cmtScroll {
+	overflow-y: hidden;
+	max-height: 300px;
+}
+
+.cmtScroll:hover {
+	overflow-y: scroll;
+}
+
+.commentInput {
+	display: flex;
+	margin: 15px 15px 5px 15px;
+}
+
+.commentInputRight {
+	margin-left: 10px;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	background-color: #f0f2f5;
+	border-radius: 15px;
+}
+
+.submitCmt {
+	background-color: tomato;
+	color: white;
+	border: tomato;
+	margin-right: 14px;
+}
+
+.inputIcons {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.inputIcon {
+	font-size: 16px;
+	margin-right: 8px;
+}

@@ -1,0 +1,173 @@
+.postApproval {
+	padding: 20px;
+}
+
+.postApprovalTop {
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+	box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+	padding: 10px;
+}
+
+.listPostApproval {
+	margin-top: 15px;
+}
+
+.waitingPost {
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+	box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+	margin: 30px 0;
+}
+
+.waitingPostWrapper {
+	padding: 10px;
+}
+
+.waitingPostTop {
+	display: flex;
+	align-items: center;
+}
+
+.waitingPostCenter {
+	margin: 20px 0;
+}
+
+.waitingPostBottom {
+	display: flex;
+	justify-content: space-around;
+}
+
+.btnWaitingPost {
+	color: white;
+	width: 150px;
+	height: 35px;
+	cursor: pointer;
+	border-radius: 6px;
+}
+
+.btnOk {
+	background-color: forestgreen;
+	border: forestgreen;
+}
+
+.btnNo {
+	background-color: orangered;
+	border: orangered;
+}
+
+.categoryWrapper {
+	padding: 25px 10px;
+	height: calc(100vh - 65px);
+	overflow-y: hidden;
+	position: sticky;
+	top: 65px;
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+}
+::-webkit-scrollbar-track {
+	background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+	background-color: rgb(179, 179, 179);
+}
+
+.categoryWrapper:hover {
+	overflow-y: scroll;
+}
+
+.categoryTop {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.addCategory {
+	margin-bottom: 15px;
+}
+
+.inputCategory {
+	border-radius: 5px;
+	border: coral solid 2px;
+	width: 200px;
+	padding-left: 10px;
+}
+
+.inputCategory:focus {
+	outline: none;
+}
+
+.btnCategory {
+	background-color: tomato;
+	border: tomato solid 2px;
+	color: white;
+	margin-left: 45px;
+	cursor: pointer;
+}
+
+.category {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3px 20px 8px 10px;
+}
+
+.category:hover {
+	background-color: #f0f2f5;
+	border-radius: 5px;
+}
+
+.iconCate:hover {
+	cursor: pointer;
+	color: red;
+	font-size: 16px;
+}
+
+.searchUser {
+	border-radius: 5px;
+	border: coral solid 2px;
+	width: 200px;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+.searchUser:focus {
+	outline: none;
+}
+
+.listUser {
+	margin-top: 15px;
+}
+
+.userLeft {
+	display: flex;
+	align-items: center;
+}
+
+.nameUser {
+	margin-left: 5px;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.roleUser {
+	font-size: 12px;
+	font-weight: 300;
+	margin-left: 3px;
+}
+
+.editUser:hover {
+	color: dodgerblue;
+	font-size: 16px;
+}
+
+.voucher-ui:hover {
+	background-color: #dfcfcf;
+	cursor: pointer;
+}
+
+.modal-quay .ant-modal-body {
+	height: 650px !important;
+}

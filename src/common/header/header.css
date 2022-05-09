@@ -1,0 +1,7 @@
+.header_search:focus {
+	outline: none;
+}
+
+.ant-dropdown {
+	position: fixed !important;
+}
